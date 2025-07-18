@@ -37,7 +37,7 @@ function Project() {
         <div className="projects-grid">
             <div className="project">
                 <a href="#service1" target="_blank" rel="noreferrer"><img src={gallery2} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="#service1" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
+                <a href="#service1" target="_blank" rel="noreferrer"><h2>lorem </h2></a>
                 <p>lorem details.</p>
             </div>
             <div className="project">
