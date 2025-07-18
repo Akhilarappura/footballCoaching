@@ -54,7 +54,8 @@ function Contact() {
       <div className="items-container">
         <div className="contact_wrapper">
           <h1 style={{ color: '#1b5e20' }}>Contact Me</h1>
-          <p style={{ color: '#1b5e20' }}>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
+          <p style={{ color: '#1b5e20' }}>Feel free to reach out for any inquiries or questions.</p>
+          <p style={{ color: '#1b5e20' }}>I will get back to you as soon as possible.</p> 
           <Box
             ref={form}
             component="form"
