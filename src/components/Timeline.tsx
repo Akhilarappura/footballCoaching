@@ -10,7 +10,7 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Coach History</h1>
+        <h1 style={{ color: '#1b5e20' }}>Coach History</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -20,9 +20,9 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Football Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
-            <p>
+            <h3 className="vertical-timeline-element-title" style={{ color: '#1b5e20' }}>Football Consultant</h3>
+            <h4 className="vertical-timeline-element-subtitle" style={{ color: '#1b5e20' }}>Dallas, TX</h4>
+            <p style={{ color: '#1b5e20' }}>
              Coach latest details
             </p>
           </VerticalTimelineElement>
@@ -32,9 +32,9 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">previous details</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>
+            <h3 className="vertical-timeline-element-title" style={{ color: '#1b5e20' }}>previous details</h3>
+            <h4 className="vertical-timeline-element-subtitle" style={{ color: '#1b5e20' }}>Laie, HI</h4>
+            <p style={{ color: '#1b5e20' }}>
      details previous
             </p>
           </VerticalTimelineElement>
@@ -44,9 +44,9 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Coach details</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>
+            <h3 className="vertical-timeline-element-title" style={{ color: '#1b5e20' }}>Coach details</h3>
+            <h4 className="vertical-timeline-element-subtitle" style={{ color: '#1b5e20' }}>Laie, HI</h4>
+            <p style={{ color: '#1b5e20' }}>
              experience details
             </p>
           </VerticalTimelineElement>
@@ -56,10 +56,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Experience</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
-            <p>
-          details
+            <h3 className="vertical-timeline-element-title" style={{ color: '#1b5e20' }}>Experience</h3>
+            <h4 className="vertical-timeline-element-subtitle" style={{ color: '#1b5e20' }}>Tokyo, Japan</h4>
+            <p style={{ color: '#1b5e20' }}>
+                details
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
