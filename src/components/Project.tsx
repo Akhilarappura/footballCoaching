@@ -20,6 +20,7 @@ import '../assets/styles/Project.scss';
 
 const sliderImages = [gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9, gallery10, gallery13, gallery14];
 
+
 const settings = {
   dots: true,
   infinite: true,
@@ -39,7 +40,7 @@ const settings = {
 function Project() {
   return (
     <div className="projects-container" id="projects">
-      <h1>Personal Trainings</h1>
+      <h1 style={{ textAlign: 'center', marginBottom: '2rem' }}>Personal Trainings</h1>
 
       <div className="projects-grid">
         {Array(10).fill(0).map((_, i) => (
