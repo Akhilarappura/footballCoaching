@@ -18,7 +18,7 @@ import gallery14 from '../assets/images/gallery14.jpg';
 
 import '../assets/styles/Project.scss';
 
-const sliderImages = [gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9, gallery10, gallery13, gallery14];
+const sliderImages = [gallery3,gallery2, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9, gallery10, gallery13, gallery14];
 
 
 const settings = {
@@ -40,23 +40,7 @@ const settings = {
 function Project() {
   return (
     <div className="projects-container" id="projects">
-      <h1 style={{ textAlign: 'center', marginBottom: '2rem' }}>Personal Trainings</h1>
 
-      <div className="projects-grid">
-        {Array(10).fill(0).map((_, i) => (
-          <div className="project" key={i}>
-            <a href={`#service${i + 1}`} target="_blank" rel="noreferrer">
-              <img src={gallery2} className="zoom" alt="thumbnail" width="100%" />
-            </a>
-            <a href={`#service${i + 1}`} target="_blank" rel="noreferrer">
-              <h2>lorem</h2>
-            </a>
-            <p>lorem details..</p>
-          </div>
-        ))}
-      </div>
-
-      {/* Slideshow Section */}
       <div className="slider-section">
         <h2 style={{ marginTop: '2rem', textAlign: 'center' }}>Gallery </h2>
         <Slider {...settings}>

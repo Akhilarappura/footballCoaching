@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import {
   Main,
   Timeline,
-  Expertise,
+  // Expertise,
   Project,
   Contact,
   Navigation,
@@ -42,7 +42,7 @@ function App() {
 
 
         <About />
-        <Expertise />
+        {/* <Expertise />  */}
         <Timeline />
         <Project />
         <Contact />
